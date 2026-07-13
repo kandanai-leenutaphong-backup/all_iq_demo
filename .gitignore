@@ -1,0 +1,32 @@
+# ── Secrets / environment ─────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.Python
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Credential/token caches ───────────────────────────────────────────────────
+*.token_cache.json
+msal_cache.bin
+.azure/
+
+# ── OS / editor cruft ─────────────────────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
